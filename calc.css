@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  max-height: 100vh;
+  max-width:100vw;
+  background-color: darkgray;
+}
+#result{
+  background-color: white;
+  height: 90px;
+  margin: 5px 10px;
+  padding-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  overflow-x: scroll;
+}
+.row{
+  display:flex;
+  justify-content: center;
+  margin: 0;
+}
+button{
+  height: 50px;
+  width: 55px;
+  margin: 20px 10px;
+  text-align: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.func{
+  background-color: orangered;
+}
+.op{
+  background-color: royalblue;
+}
+.num{
+  background-color: black;
+  color: white;
+}
+#buttons{
+  padding-top: 50px;
+}
+.brac{
+  background-color: darkorange;
+}
