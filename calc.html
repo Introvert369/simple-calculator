@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="calc.css">
+  <title>simple calculator</title>
+  <script src="calc.js"></script>
+</head>
+<body>
+  <p id="result"></p>
+  <div id="buttons">
+    <div class="row">
+      <button class="num" onclick="input('1')">1</button>
+    <button class="num" onclick="input('2')">2</button>
+    <button class="num" onclick="input('3')">3</button>
+    <button class="func" onclick="del()">DEL</button>
+    <button class="func" onclick="clr()">CLR</button>
+    </div>
+    <div class="row">
+      <button class="num" onclick="input('4')">4</button>
+    <button class="num" onclick="input('5')">5</button>
+    <button class="num" onclick="input('6')">6</button>
+    <button class="op" onclick="input('+')">+</button>
+    <button class="op" onclick="input('-')">-</button>
+    </div>
+    <div class="row">
+      <button class="num" onclick="input('7')">7</button>
+    <button class="num" onclick="input('8')">8</button>
+    <button class="num" onclick="input('9')">9</button>
+    <button class="op" onclick="input('*')">×</button></button>
+    <button class="op" onclick="input('/')">÷</button>
+    </div>
+    <div class="row">
+      <button class="brac" onclick="input('(')">(</button>
+      <button class="num" onclick="input('0')">0</button>
+    <button class="num" onclick="input('.')">.</button>
+    <button class="brac" onclick="input(')')">)</button>
+    <button class="func" onclick="calc()">=</button>
+    </div>
+  </div>
+</body>
+</html>
